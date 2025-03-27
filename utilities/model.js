@@ -3,7 +3,9 @@ const model = {
         page: 'userpage'
     },
     inputs: {
-
+        userpage: {
+            userId: 0
+        }
     },
     data: {
         users: [
