@@ -4,7 +4,7 @@ const model = {
     },
     inputs: {
         userpage: {
-            userId: 0
+            userId: 1,
         }
     },
     data: {
@@ -13,7 +13,7 @@ const model = {
             { id: 2, levelId: 1, name: 'Sigrid', email: 'sigrid@gmail.com', password: '456' },
             { id: 3, levelId: 1, name: 'Peter', email: 'peter@gmail.com', password: '789' },
             { id: 4, levelId: 1, name: 'Stian', email: 'stian@gmail.com', password: '321' },
-            { id: 4, levelId: 1, name: 'Pol', email: 'pol@gmail.com', password: '654' },
+            { id: 5, levelId: 1, name: 'Pol', email: 'pol@gmail.com', password: '654' },
         ],
         levels: [
             { id: 1, name: 'Level 1' },
@@ -34,7 +34,7 @@ const model = {
             { id: 4, name: 'Repitition' },
             { id: 5, name: 'Lerned' }
         ],
-        usersProgresses: [
+        events: [
             { id: 1, userId: 1, wordId: 1, progressId: 4 },
             { id: 2, userId: 1, wordId: 2, progressId: 4 },
             { id: 3, userId: 2, wordId: 1, progressId: 1 },

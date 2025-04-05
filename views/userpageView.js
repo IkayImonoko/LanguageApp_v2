@@ -6,7 +6,42 @@ function userpageView() {
             break
         }
     }
+
+    let tableRows = '';
+    let level = currentUser.levelId;
+    for (const event of model.data.events) {
+        if (event.userId === currentUser.id) {
+            let word = '';
+            let progress = '';
+            word = getWord(event.wordId);
+            progress = getPogress(event.progressId);
+            tableRows += `<tr><td>${word.russian}/${word.norwegian}</td><td>${progress.name}</td></tr>`
+        }
+    }
     return /*HTML*/ `
-        Hello from ${currentUser.name}´s userpage
+        <h1>Hello from ${currentUser.name}´s userpage</h1>
+        <table>
+            <tr>
+                <th>Word</th>
+                <th>Progress</th>
+            </tr>
+                ${tableRows}
+        </table>
         `;
+}
+
+function getWord(id) {
+    for (const word of model.data.words) {
+        if (word.id === id) {
+            return word;
+        }
+    }
+}
+
+function getPogress(id) {
+    for (const progress of model.data.progresses) {
+        if (progress.id === id) {
+            return progress;
+        }
+    }
 }
