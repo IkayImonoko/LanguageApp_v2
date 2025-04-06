@@ -32,11 +32,11 @@ const model = {
             { id: 2, name: 'Started' },
             { id: 3, name: 'In progress' },
             { id: 4, name: 'Repitition' },
-            { id: 5, name: 'Lerned' }
+            { id: 5, name: 'Learned' }
         ],
         events: [
             { id: 1, userId: 1, wordId: 1, progressId: 4 },
-            { id: 2, userId: 1, wordId: 2, progressId: 4 },
+            { id: 2, userId: 1, wordId: 2, progressId: 5 },
             { id: 3, userId: 2, wordId: 1, progressId: 1 },
             { id: 4, userId: 3, wordId: 1, progressId: 1 },
         ]
