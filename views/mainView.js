@@ -8,6 +8,14 @@ function mainView() {
     }
 
     document.getElementById('app').innerHTML = /*HTML*/ `
-        ${currentPageView}
+        <div id='mainContainer'>
+            <header>
+            </header>
+            <main>
+                ${currentPageView}
+            </main>
+            <footer>
+            </footer>
+        </div>
     `; 
 }

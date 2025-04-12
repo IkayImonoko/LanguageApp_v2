@@ -7,3 +7,7 @@ td {
     padding: 10px;
     text-align: left;
 }
+
+#mainContainer{
+    border: solid black 1px;
+}
