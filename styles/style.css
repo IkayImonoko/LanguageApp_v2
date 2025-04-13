@@ -8,6 +8,18 @@ td {
     text-align: left;
 }
 
-#mainContainer{
+#mainContainer  header, main, footer {
     border: solid black 1px;
 }
+
+#mainContainer  header{
+    height: 20vh;
+}
+
+#mainContainer  main{
+    height: 70vh;
+}
+#mainContainer  footer{
+    height: 10vh;
+}
+

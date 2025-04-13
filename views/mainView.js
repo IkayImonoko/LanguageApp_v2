@@ -10,11 +10,13 @@ function mainView() {
     document.getElementById('app').innerHTML = /*HTML*/ `
         <div id='mainContainer'>
             <header>
+            header
             </header>
             <main>
                 ${currentPageView}
             </main>
             <footer>
+            footer
             </footer>
         </div>
     `; 
