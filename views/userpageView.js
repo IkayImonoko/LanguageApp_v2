@@ -19,7 +19,7 @@ function userpageView() {
         }
     }
     return /*HTML*/ `
-        <h1>Hello from ${currentUser.name}´s userpage</h1>
+        <h1>Hello to the ${currentUser.name}´s userpage</h1>
         <table>
             <tr>
                 <th>Word</th>

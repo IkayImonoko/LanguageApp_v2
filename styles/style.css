@@ -9,7 +9,10 @@ td {
 }
 
 #mainContainer  header, main, footer {
-    border: solid black 1px;
+    border: solid orange 2px;
+    margin: 20px;
+    padding: 20px;
+    background-color: greenyellow;
 }
 
 #mainContainer  header{
@@ -23,3 +26,6 @@ td {
     height: 10vh;
 }
 
+body{
+    background-color: rebeccapurple;
+}
