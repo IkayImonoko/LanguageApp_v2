@@ -13,3 +13,13 @@ function getPogress(id) {
         }
     }
 }
+
+function getUserLevel(id) {
+    const user = model.data.users.find(x => x.id === id);
+    return user ? user.levelId : null;
+}
+
+function getLevelName(id) {
+    const level = model.data.levels.find(x => x.id === id);
+    return level ? level.name : '';
+}

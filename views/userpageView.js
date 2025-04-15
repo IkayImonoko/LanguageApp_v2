@@ -20,6 +20,7 @@ function userpageView() {
     }
     return /*HTML*/ `
         <h1>Hello to the ${currentUser.name}´s userpage</h1>
+        your level is ${getLevelName(getUserLevel(model.inputs.userpage.userId))}
         <table>
             <tr>
                 <th>Word</th>
