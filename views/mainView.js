@@ -10,7 +10,11 @@ function mainView() {
     document.getElementById('app').innerHTML = /*HTML*/ `
         <div id='mainContainer'>
             <header>
-            header
+                <label for='username'>Username</label>
+                <input type='text' id='username'>
+                <br>
+                <label for='password'>Password</label>
+                <input type='password' id='password'>
             </header>
             <main>
                 ${currentPageView}
