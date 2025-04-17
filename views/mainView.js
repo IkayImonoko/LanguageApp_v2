@@ -15,6 +15,8 @@ function mainView() {
                 <br>
                 <label for='password'>Password</label>
                 <input type='password' id='password'>
+                <br>
+                <button>Login</button>
             </header>
             <main>
                 ${currentPageView}
