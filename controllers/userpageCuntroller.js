@@ -23,3 +23,7 @@ function getLevelName(id) {
     const level = model.data.levels.find(x => x.id === id);
     return level ? level.name : '';
 }
+
+function handleLogin(){
+    console.log('onclick');
+}
