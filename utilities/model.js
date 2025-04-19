@@ -5,7 +5,12 @@ const model = {
     inputs: {
         userpage: {
             userId: 1,
+        },
+        login: {
+            username: null,
+            password: null
         }
+
     },
     data: {
         users: [

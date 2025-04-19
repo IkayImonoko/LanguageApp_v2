@@ -11,10 +11,10 @@ function mainView() {
         <div id='mainContainer'>
             <header>
                 <label for='username'>Username</label>
-                <input type='text' id='username'>
+                <input type='text' id='username' oninput='model.inputs.login.username = this.value'>
                 <br>
                 <label for='password'>Password</label>
-                <input type='password' id='password'>
+                <input type='password' id='password' oninput='model.inputs.login.password = this.value'>
                 <br>
                 <button onclick='handleLogin()'>Login</button>
             </header>
