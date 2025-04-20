@@ -8,18 +8,19 @@ function userpageView() {
     }
 
     let tableRows = '';
-    let level = currentUser.levelId;
-    for (const event of model.data.events) {
-        if (event.userId === currentUser.id) {
-            let word = '';
-            let progress = '';
-            word = getWord(event.wordId);
-            progress = getPogress(event.progressId);
-            tableRows += `<tr><td>${word.russian}/${word.norwegian}</td><td>${progress.name}</td></tr>`
+    //let level = currentUser.levelId;
+    if (currentUser) {
+        for (const event of model.data.events) {
+            if (event.userId === currentUser.id) {
+                let word = '';
+                let progress = '';
+                word = getWord(event.wordId);
+                progress = getPogress(event.progressId);
+                tableRows += `<tr><td>${word.russian}/${word.norwegian}</td><td>${progress.name}</td></tr>`
+            }
         }
     }
     return /*HTML*/ `
-        <h1>Hello to the ${currentUser.name}´s userpage</h1>
         your level is ${getLevelName(getUserLevel(model.inputs.userpage.userId))}
         <table>
             <tr>

@@ -4,7 +4,7 @@ const model = {
     },
     inputs: {
         userpage: {
-            userId: 1,
+            userId: null,
         },
         login: {
             username: null,
