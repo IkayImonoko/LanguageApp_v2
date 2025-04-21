@@ -1,7 +1,10 @@
 function loginView() {
     let message;
     if (model.inputs.userpage.userId) {
-        message = `<h1>Hello to the ${getUser(model.inputs.userpage.userId).name}´s userpage</h1>`;
+        message = /*HTML*/`
+            <h1>Hello to the ${getUser(model.inputs.userpage.userId).name}´s userpage</h1>
+            <button onclick='handleLogout()'>Log out</button>
+        `;
     }
     else {
         message = /*HTML*/`              

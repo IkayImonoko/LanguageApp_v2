@@ -5,3 +5,8 @@ function handleLogin(){
     }
     mainView();
 }
+
+function handleLogout(){
+    model.inputs.userpage.userId  = null;
+    mainView();
+}
