@@ -9,10 +9,10 @@ function loginView() {
     else {
         message = /*HTML*/`              
             <label for='username'>Username</label>
-            <input type='text' id='username' oninput='model.inputs.login.username = this.value'>
+            <input type='text' id='username' oninput='setLoginUsernameInput(this.value)'>
             <br>
             <label for='password'>Password</label>
-            <input type='password' id='password' oninput='model.inputs.login.password = this.value'>
+            <input type='password' id='password' oninput='setLoginPasswordInput(this.value)'>
             <br>
             <button onclick='handleLogin()'>Login</button>
         `;

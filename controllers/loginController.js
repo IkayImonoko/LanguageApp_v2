@@ -3,8 +3,8 @@ function handleLogin(){
     if(user){
         model.inputs.userpage.userId = user.id;
     }
-    model.inputs.login.username = null;
-    model.inputs.login.password = null;
+    setLoginUsernameInput(null);
+    setLoginPasswordInput(null);
     
     mainView();
 }
