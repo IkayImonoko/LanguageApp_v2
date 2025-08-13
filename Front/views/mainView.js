@@ -16,7 +16,11 @@ function mainView() {
                 ${currentPageView}
             </main>
             <footer>
-            footer
+            ${model.words ? model.words.map(word => 
+                `<div>
+                  ${word.russian}
+                </div>`
+              ).join('') : ''}
             </footer>
         </div>
     `;

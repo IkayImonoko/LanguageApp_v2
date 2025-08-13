@@ -26,8 +26,7 @@ const model = {
             { id: 2, name: 'Level 2' },
         ],
         words: [
-            { id: 1, russian: 'привет', norwegian: 'hi' },
-            { id: 2, russian: 'столяр', norwegian: 'snekker' }
+            
         ],
         levelsContents: [
             { id: 1, livelId: 1, wordId: 1 },

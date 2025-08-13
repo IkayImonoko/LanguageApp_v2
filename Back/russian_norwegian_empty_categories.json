@@ -1,0 +1,2707 @@
+[
+  {
+    "russian": "да",
+    "norwegian": "ja",
+    "category": ""
+  },
+  {
+    "russian": "нет",
+    "norwegian": "nei",
+    "category": ""
+  },
+  {
+    "russian": "возможно",
+    "norwegian": "kanskje",
+    "category": ""
+  },
+  {
+    "russian": "хорошо",
+    "norwegian": "bra",
+    "category": ""
+  },
+  {
+    "russian": "спасибо",
+    "norwegian": "takk",
+    "category": ""
+  },
+  {
+    "russian": "пожалуйста",
+    "norwegian": "vær så snill",
+    "category": ""
+  },
+  {
+    "russian": "извинить",
+    "norwegian": "unnskylde",
+    "category": ""
+  },
+  {
+    "russian": "иметь",
+    "norwegian": "ha",
+    "category": ""
+  },
+  {
+    "russian": "быть",
+    "norwegian": "være",
+    "category": ""
+  },
+  {
+    "russian": "путешествовать",
+    "norwegian": "reise",
+    "category": ""
+  },
+  {
+    "russian": "говорить",
+    "norwegian": "snakke",
+    "category": ""
+  },
+  {
+    "russian": "понимать",
+    "norwegian": "forstå",
+    "category": ""
+  },
+  {
+    "russian": "ноль",
+    "norwegian": "null",
+    "category": ""
+  },
+  {
+    "russian": "один",
+    "norwegian": "en",
+    "category": ""
+  },
+  {
+    "russian": "два",
+    "norwegian": "to",
+    "category": ""
+  },
+  {
+    "russian": "три",
+    "norwegian": "tre",
+    "category": ""
+  },
+  {
+    "russian": "четыре",
+    "norwegian": "fire",
+    "category": ""
+  },
+  {
+    "russian": "пять",
+    "norwegian": "fem",
+    "category": ""
+  },
+  {
+    "russian": "шесть",
+    "norwegian": "seks",
+    "category": ""
+  },
+  {
+    "russian": "семь",
+    "norwegian": "sju",
+    "category": ""
+  },
+  {
+    "russian": "восемь",
+    "norwegian": "åtte",
+    "category": ""
+  },
+  {
+    "russian": "девять",
+    "norwegian": "ni",
+    "category": ""
+  },
+  {
+    "russian": "десять",
+    "norwegian": "ti",
+    "category": ""
+  },
+  {
+    "russian": "одиннадцать",
+    "norwegian": "elleve",
+    "category": ""
+  },
+  {
+    "russian": "двенадцать",
+    "norwegian": "tolv",
+    "category": ""
+  },
+  {
+    "russian": "тринадцать",
+    "norwegian": "tretten",
+    "category": ""
+  },
+  {
+    "russian": "четырнадцать",
+    "norwegian": "fjorten",
+    "category": ""
+  },
+  {
+    "russian": "пятнадцать",
+    "norwegian": "femten",
+    "category": ""
+  },
+  {
+    "russian": "шестнадцать",
+    "norwegian": "seksten",
+    "category": ""
+  },
+  {
+    "russian": "семнадцать",
+    "norwegian": "sytten",
+    "category": ""
+  },
+  {
+    "russian": "восемнадцать",
+    "norwegian": "atten",
+    "category": ""
+  },
+  {
+    "russian": "девятнадцать",
+    "norwegian": "nitten",
+    "category": ""
+  },
+  {
+    "russian": "двадцать",
+    "norwegian": "tjue",
+    "category": ""
+  },
+  {
+    "russian": "тридцать",
+    "norwegian": "tretti",
+    "category": ""
+  },
+  {
+    "russian": "сорок",
+    "norwegian": "førti",
+    "category": ""
+  },
+  {
+    "russian": "пятьдесят",
+    "norwegian": "femti",
+    "category": ""
+  },
+  {
+    "russian": "шестьдесят",
+    "norwegian": "seksti",
+    "category": ""
+  },
+  {
+    "russian": "семьдесят",
+    "norwegian": "sytti",
+    "category": ""
+  },
+  {
+    "russian": "восемьдесят",
+    "norwegian": "åtti",
+    "category": ""
+  },
+  {
+    "russian": "девяносто",
+    "norwegian": "nitti",
+    "category": ""
+  },
+  {
+    "russian": "сто",
+    "norwegian": "hundre",
+    "category": ""
+  },
+  {
+    "russian": "тысяча",
+    "norwegian": "tusen",
+    "category": ""
+  },
+  {
+    "russian": "миллион",
+    "norwegian": "million",
+    "category": ""
+  },
+  {
+    "russian": "несколько",
+    "norwegian": "et par",
+    "category": ""
+  },
+  {
+    "russian": "здравствуйте",
+    "norwegian": "hallo",
+    "category": ""
+  },
+  {
+    "russian": "я",
+    "norwegian": "jeg",
+    "category": ""
+  },
+  {
+    "russian": "ты",
+    "norwegian": "du",
+    "category": ""
+  },
+  {
+    "russian": "как",
+    "norwegian": "hvordan",
+    "category": ""
+  },
+  {
+    "russian": "где",
+    "norwegian": "hvor",
+    "category": ""
+  },
+  {
+    "russian": "кто",
+    "norwegian": "hvem",
+    "category": ""
+  },
+  {
+    "russian": "очень",
+    "norwegian": "veldig",
+    "category": ""
+  },
+  {
+    "russian": "не",
+    "norwegian": "ikke",
+    "category": ""
+  },
+  {
+    "russian": "за",
+    "norwegian": "for",
+    "category": ""
+  },
+  {
+    "russian": "что",
+    "norwegian": "hva",
+    "category": ""
+  },
+  {
+    "russian": "помогать",
+    "norwegian": "hjelpe",
+    "category": ""
+  },
+  {
+    "russian": "осторожно",
+    "norwegian": "forsiktig",
+    "category": ""
+  },
+  {
+    "russian": "доброе",
+    "norwegian": "god",
+    "category": ""
+  },
+  {
+    "russian": "утро",
+    "norwegian": "morgen",
+    "category": ""
+  },
+  {
+    "russian": "день",
+    "norwegian": "dag",
+    "category": ""
+  },
+  {
+    "russian": "вечер",
+    "norwegian": "kveld",
+    "category": ""
+  },
+  {
+    "russian": "ночь",
+    "norwegian": "natt",
+    "category": ""
+  },
+  {
+    "russian": "туалет",
+    "norwegian": "toalett",
+    "category": ""
+  },
+  {
+    "russian": "полиция",
+    "norwegian": "politi",
+    "category": ""
+  },
+  {
+    "russian": "вор",
+    "norwegian": "tyv",
+    "category": ""
+  },
+  {
+    "russian": "помощь",
+    "norwegian": "hjelp",
+    "category": ""
+  },
+  {
+    "russian": "это",
+    "norwegian": "dette",
+    "category": ""
+  },
+  {
+    "russian": "заблудиться",
+    "norwegian": "gå seg vill",
+    "category": ""
+  },
+  {
+    "russian": "потерять",
+    "norwegian": "miste",
+    "category": ""
+  },
+  {
+    "russian": "сумка",
+    "norwegian": "veske",
+    "category": ""
+  },
+  {
+    "russian": "бумажник",
+    "norwegian": "lommebok",
+    "category": ""
+  },
+  {
+    "russian": "болеть",
+    "norwegian": "være syk",
+    "category": ""
+  },
+  {
+    "russian": "врач",
+    "norwegian": "lege",
+    "category": ""
+  },
+  {
+    "russian": "звонить",
+    "norwegian": "ringe",
+    "category": ""
+  },
+  {
+    "russian": "число",
+    "norwegian": "nummer",
+    "category": ""
+  },
+  {
+    "russian": "половина",
+    "norwegian": "halv",
+    "category": ""
+  },
+  {
+    "russian": "меньше",
+    "norwegian": "mindre",
+    "category": ""
+  },
+  {
+    "russian": "больше",
+    "norwegian": "mer",
+    "category": ""
+  },
+  {
+    "russian": "сейчас",
+    "norwegian": "nå",
+    "category": ""
+  },
+  {
+    "russian": "позднее",
+    "norwegian": "senere",
+    "category": ""
+  },
+  {
+    "russian": "раньше",
+    "norwegian": "tidligere",
+    "category": ""
+  },
+  {
+    "russian": "вчера",
+    "norwegian": "i går",
+    "category": ""
+  },
+  {
+    "russian": "сегодня",
+    "norwegian": "i dag",
+    "category": ""
+  },
+  {
+    "russian": "завтра",
+    "norwegian": "i morgen",
+    "category": ""
+  },
+  {
+    "russian": "час",
+    "norwegian": "time",
+    "category": ""
+  },
+  {
+    "russian": "полдень",
+    "norwegian": "middag",
+    "category": ""
+  },
+  {
+    "russian": "полночь",
+    "norwegian": "midnatt",
+    "category": ""
+  },
+  {
+    "russian": "минута",
+    "norwegian": "minutt",
+    "category": ""
+  },
+  {
+    "russian": "неделя",
+    "norwegian": "uke",
+    "category": ""
+  },
+  {
+    "russian": "месяц",
+    "norwegian": "måned",
+    "category": ""
+  },
+  {
+    "russian": "год",
+    "norwegian": "år",
+    "category": ""
+  },
+  {
+    "russian": "понедельник",
+    "norwegian": "mandag",
+    "category": ""
+  },
+  {
+    "russian": "вторник",
+    "norwegian": "tirsdag",
+    "category": ""
+  },
+  {
+    "russian": "среда",
+    "norwegian": "onsdag",
+    "category": ""
+  },
+  {
+    "russian": "четверг",
+    "norwegian": "torsdag",
+    "category": ""
+  },
+  {
+    "russian": "пятница",
+    "norwegian": "fredag",
+    "category": ""
+  },
+  {
+    "russian": "суббота",
+    "norwegian": "lørdag",
+    "category": ""
+  },
+  {
+    "russian": "воскресенье",
+    "norwegian": "søndag",
+    "category": ""
+  },
+  {
+    "russian": "январь",
+    "norwegian": "januar",
+    "category": ""
+  },
+  {
+    "russian": "февраль",
+    "norwegian": "februar",
+    "category": ""
+  },
+  {
+    "russian": "март",
+    "norwegian": "mars",
+    "category": ""
+  },
+  {
+    "russian": "апрель",
+    "norwegian": "april",
+    "category": ""
+  },
+  {
+    "russian": "май",
+    "norwegian": "mai",
+    "category": ""
+  },
+  {
+    "russian": "июнь",
+    "norwegian": "juni",
+    "category": ""
+  },
+  {
+    "russian": "июль",
+    "norwegian": "juli",
+    "category": ""
+  },
+  {
+    "russian": "август",
+    "norwegian": "august",
+    "category": ""
+  },
+  {
+    "russian": "сентябрь",
+    "norwegian": "september",
+    "category": ""
+  },
+  {
+    "russian": "октябрь",
+    "norwegian": "oktober",
+    "category": ""
+  },
+  {
+    "russian": "ноябрь",
+    "norwegian": "november",
+    "category": ""
+  },
+  {
+    "russian": "декабрь",
+    "norwegian": "desember",
+    "category": ""
+  },
+  {
+    "russian": "чёрный",
+    "norwegian": "svart",
+    "category": ""
+  },
+  {
+    "russian": "белый",
+    "norwegian": "hvit",
+    "category": ""
+  },
+  {
+    "russian": "серый",
+    "norwegian": "grå",
+    "category": ""
+  },
+  {
+    "russian": "красный",
+    "norwegian": "rød",
+    "category": ""
+  },
+  {
+    "russian": "синий",
+    "norwegian": "blå",
+    "category": ""
+  },
+  {
+    "russian": "жёлтый",
+    "norwegian": "gul",
+    "category": ""
+  },
+  {
+    "russian": "зелёный",
+    "norwegian": "grønn",
+    "category": ""
+  },
+  {
+    "russian": "оранжевый",
+    "norwegian": "oransje",
+    "category": ""
+  },
+  {
+    "russian": "фиолетовый",
+    "norwegian": "lilla",
+    "category": ""
+  },
+  {
+    "russian": "коричневый",
+    "norwegian": "brun",
+    "category": ""
+  },
+  {
+    "russian": "такси",
+    "norwegian": "drosje",
+    "category": ""
+  },
+  {
+    "russian": "комната",
+    "norwegian": "rom",
+    "category": ""
+  },
+  {
+    "russian": "ванная",
+    "norwegian": "bad",
+    "category": ""
+  },
+  {
+    "russian": "душ",
+    "norwegian": "dusj",
+    "category": ""
+  },
+  {
+    "russian": "телефон",
+    "norwegian": "telefon",
+    "category": ""
+  },
+  {
+    "russian": "телевизор",
+    "norwegian": "TV",
+    "category": ""
+  },
+  {
+    "russian": "завтрак",
+    "norwegian": "frokost",
+    "category": ""
+  },
+  {
+    "russian": "ужин",
+    "norwegian": "middag",
+    "category": ""
+  },
+  {
+    "russian": "счёт",
+    "norwegian": "regning",
+    "category": ""
+  },
+  {
+    "russian": "деньги",
+    "norwegian": "penger",
+    "category": ""
+  },
+  {
+    "russian": "дом",
+    "norwegian": "hus",
+    "category": ""
+  },
+  {
+    "russian": "кошка",
+    "norwegian": "katt",
+    "category": ""
+  },
+  {
+    "russian": "собака",
+    "norwegian": "hund",
+    "category": ""
+  },
+  {
+    "russian": "птица",
+    "norwegian": "fugl",
+    "category": ""
+  },
+  {
+    "russian": "рыба",
+    "norwegian": "fisk",
+    "category": ""
+  },
+  {
+    "russian": "корова",
+    "norwegian": "ku",
+    "category": ""
+  },
+  {
+    "russian": "лошадь",
+    "norwegian": "hest",
+    "category": ""
+  },
+  {
+    "russian": "голова",
+    "norwegian": "hode",
+    "category": ""
+  },
+  {
+    "russian": "рука",
+    "norwegian": "arm",
+    "category": ""
+  },
+  {
+    "russian": "нога",
+    "norwegian": "ben",
+    "category": ""
+  },
+  {
+    "russian": "глаз",
+    "norwegian": "øye",
+    "category": ""
+  },
+  {
+    "russian": "ухо",
+    "norwegian": "øre",
+    "category": ""
+  },
+  {
+    "russian": "нос",
+    "norwegian": "nese",
+    "category": ""
+  },
+  {
+    "russian": "рот",
+    "norwegian": "munn",
+    "category": ""
+  },
+  {
+    "russian": "хлеб",
+    "norwegian": "brød",
+    "category": ""
+  },
+  {
+    "russian": "молоко",
+    "norwegian": "melk",
+    "category": ""
+  },
+  {
+    "russian": "вода",
+    "norwegian": "vann",
+    "category": ""
+  },
+  {
+    "russian": "фрукт",
+    "norwegian": "frukt",
+    "category": ""
+  },
+  {
+    "russian": "овощ",
+    "norwegian": "grønnsak",
+    "category": ""
+  },
+  {
+    "russian": "мясо",
+    "norwegian": "kjøtt",
+    "category": ""
+  },
+  {
+    "russian": "делать",
+    "norwegian": "gjøre",
+    "category": ""
+  },
+  {
+    "russian": "идти",
+    "norwegian": "gå",
+    "category": ""
+  },
+  {
+    "russian": "видеть",
+    "norwegian": "se",
+    "category": ""
+  },
+  {
+    "russian": "знать",
+    "norwegian": "vite",
+    "category": ""
+  },
+  {
+    "russian": "хотеть",
+    "norwegian": "ville",
+    "category": ""
+  },
+  {
+    "russian": "мочь",
+    "norwegian": "kunne",
+    "category": ""
+  },
+  {
+    "russian": "есть",
+    "norwegian": "spise",
+    "category": ""
+  },
+  {
+    "russian": "пить",
+    "norwegian": "drikke",
+    "category": ""
+  },
+  {
+    "russian": "спать",
+    "norwegian": "sove",
+    "category": ""
+  },
+  {
+    "russian": "жить",
+    "norwegian": "leve",
+    "category": ""
+  },
+  {
+    "russian": "любить",
+    "norwegian": "elske",
+    "category": ""
+  },
+  {
+    "russian": "большой",
+    "norwegian": "stor",
+    "category": ""
+  },
+  {
+    "russian": "маленький",
+    "norwegian": "liten",
+    "category": ""
+  },
+  {
+    "russian": "новый",
+    "norwegian": "ny",
+    "category": ""
+  },
+  {
+    "russian": "старый",
+    "norwegian": "gammel",
+    "category": ""
+  },
+  {
+    "russian": "красивый",
+    "norwegian": "vakker",
+    "category": ""
+  },
+  {
+    "russian": "он",
+    "norwegian": "han",
+    "category": ""
+  },
+  {
+    "russian": "она",
+    "norwegian": "hun",
+    "category": ""
+  },
+  {
+    "russian": "мы",
+    "norwegian": "vi",
+    "category": ""
+  },
+  {
+    "russian": "вы",
+    "norwegian": "dere",
+    "category": ""
+  },
+  {
+    "russian": "они",
+    "norwegian": "de",
+    "category": ""
+  },
+  {
+    "russian": "город",
+    "norwegian": "by",
+    "category": ""
+  },
+  {
+    "russian": "страна",
+    "norwegian": "land",
+    "category": ""
+  },
+  {
+    "russian": "мир",
+    "norwegian": "verden",
+    "category": ""
+  },
+  {
+    "russian": "друг",
+    "norwegian": "venn",
+    "category": ""
+  },
+  {
+    "russian": "любовь",
+    "norwegian": "kjærlighet",
+    "category": ""
+  },
+  {
+    "russian": "работа",
+    "norwegian": "arbeid",
+    "category": ""
+  },
+  {
+    "russian": "школа",
+    "norwegian": "skole",
+    "category": ""
+  },
+  {
+    "russian": "университет",
+    "norwegian": "universitet",
+    "category": ""
+  },
+  {
+    "russian": "книга",
+    "norwegian": "bok",
+    "category": ""
+  },
+  {
+    "russian": "машина",
+    "norwegian": "bil",
+    "category": ""
+  },
+  {
+    "russian": "компьютер",
+    "norwegian": "datamaskin",
+    "category": ""
+  },
+  {
+    "russian": "интернет",
+    "norwegian": "internett",
+    "category": ""
+  },
+  {
+    "russian": "музыка",
+    "norwegian": "musikk",
+    "category": ""
+  },
+  {
+    "russian": "фильм",
+    "norwegian": "film",
+    "category": ""
+  },
+  {
+    "russian": "левый",
+    "norwegian": "venstre",
+    "category": ""
+  },
+  {
+    "russian": "правый",
+    "norwegian": "høyre",
+    "category": ""
+  },
+  {
+    "russian": "прямо",
+    "norwegian": "rett",
+    "category": ""
+  },
+  {
+    "russian": "назад",
+    "norwegian": "tilbake",
+    "category": ""
+  },
+  {
+    "russian": "вперёд",
+    "norwegian": "frem",
+    "category": ""
+  },
+  {
+    "russian": "вверх",
+    "norwegian": "opp",
+    "category": ""
+  },
+  {
+    "russian": "вниз",
+    "norwegian": "ned",
+    "category": ""
+  },
+  {
+    "russian": "когда",
+    "norwegian": "når",
+    "category": ""
+  },
+  {
+    "russian": "почему",
+    "norwegian": "hvorfor",
+    "category": ""
+  },
+  {
+    "russian": "мама",
+    "norwegian": "mor",
+    "category": ""
+  },
+  {
+    "russian": "папа",
+    "norwegian": "far",
+    "category": ""
+  },
+  {
+    "russian": "брат",
+    "norwegian": "bror",
+    "category": ""
+  },
+  {
+    "russian": "сестра",
+    "norwegian": "søster",
+    "category": ""
+  },
+  {
+    "russian": "сын",
+    "norwegian": "sønn",
+    "category": ""
+  },
+  {
+    "russian": "дочь",
+    "norwegian": "datter",
+    "category": ""
+  },
+  {
+    "russian": "бабушка",
+    "norwegian": "bestemor",
+    "category": ""
+  },
+  {
+    "russian": "дедушка",
+    "norwegian": "bestefar",
+    "category": ""
+  },
+  {
+    "russian": "дерево",
+    "norwegian": "tre",
+    "category": ""
+  },
+  {
+    "russian": "цветок",
+    "norwegian": "blomst",
+    "category": ""
+  },
+  {
+    "russian": "небо",
+    "norwegian": "himmel",
+    "category": ""
+  },
+  {
+    "russian": "солнце",
+    "norwegian": "sol",
+    "category": ""
+  },
+  {
+    "russian": "луна",
+    "norwegian": "måne",
+    "category": ""
+  },
+  {
+    "russian": "звезда",
+    "norwegian": "stjerne",
+    "category": ""
+  },
+  {
+    "russian": "река",
+    "norwegian": "elv",
+    "category": ""
+  },
+  {
+    "russian": "море",
+    "norwegian": "hav",
+    "category": ""
+  },
+  {
+    "russian": "гора",
+    "norwegian": "fjell",
+    "category": ""
+  },
+  {
+    "russian": "лес",
+    "norwegian": "skog",
+    "category": ""
+  },
+  {
+    "russian": "погода",
+    "norwegian": "vær",
+    "category": ""
+  },
+  {
+    "russian": "дождь",
+    "norwegian": "regn",
+    "category": ""
+  },
+  {
+    "russian": "снег",
+    "norwegian": "snø",
+    "category": ""
+  },
+  {
+    "russian": "ветер",
+    "norwegian": "vind",
+    "category": ""
+  },
+  {
+    "russian": "облако",
+    "norwegian": "sky",
+    "category": ""
+  },
+  {
+    "russian": "улица",
+    "norwegian": "gate",
+    "category": ""
+  },
+  {
+    "russian": "дорога",
+    "norwegian": "vei",
+    "category": ""
+  },
+  {
+    "russian": "автобус",
+    "norwegian": "buss",
+    "category": ""
+  },
+  {
+    "russian": "поезд",
+    "norwegian": "tog",
+    "category": ""
+  },
+  {
+    "russian": "самолёт",
+    "norwegian": "fly",
+    "category": ""
+  },
+  {
+    "russian": "время",
+    "norwegian": "tid",
+    "category": ""
+  },
+  {
+    "russian": "жизнь",
+    "norwegian": "liv",
+    "category": ""
+  },
+  {
+    "russian": "радость",
+    "norwegian": "glede",
+    "category": ""
+  },
+  {
+    "russian": "грусть",
+    "norwegian": "sorg",
+    "category": ""
+  },
+  {
+    "russian": "дверь",
+    "norwegian": "dør",
+    "category": ""
+  },
+  {
+    "russian": "окно",
+    "norwegian": "vindu",
+    "category": ""
+  },
+  {
+    "russian": "стол",
+    "norwegian": "bord",
+    "category": ""
+  },
+  {
+    "russian": "стул",
+    "norwegian": "stol",
+    "category": ""
+  },
+  {
+    "russian": "кровать",
+    "norwegian": "seng",
+    "category": ""
+  },
+  {
+    "russian": "лампа",
+    "norwegian": "lampe",
+    "category": ""
+  },
+  {
+    "russian": "еда",
+    "norwegian": "mat",
+    "category": ""
+  },
+  {
+    "russian": "суп",
+    "norwegian": "suppe",
+    "category": ""
+  },
+  {
+    "russian": "чай",
+    "norwegian": "te",
+    "category": ""
+  },
+  {
+    "russian": "кофе",
+    "norwegian": "kaffe",
+    "category": ""
+  },
+  {
+    "russian": "сахар",
+    "norwegian": "sukker",
+    "category": ""
+  },
+  {
+    "russian": "соль",
+    "norwegian": "salt",
+    "category": ""
+  },
+  {
+    "russian": "яблоко",
+    "norwegian": "eple",
+    "category": ""
+  },
+  {
+    "russian": "банан",
+    "norwegian": "banan",
+    "category": ""
+  },
+  {
+    "russian": "апельсин",
+    "norwegian": "appelsin",
+    "category": ""
+  },
+  {
+    "russian": "хлеб",
+    "norwegian": "brød",
+    "category": ""
+  },
+  {
+    "russian": "масло",
+    "norwegian": "smør",
+    "category": ""
+  },
+  {
+    "russian": "сыр",
+    "norwegian": "ost",
+    "category": ""
+  },
+  {
+    "russian": "молоко",
+    "norwegian": "melk",
+    "category": ""
+  },
+  {
+    "russian": "вода",
+    "norwegian": "vann",
+    "category": ""
+  },
+  {
+    "russian": "сок",
+    "norwegian": "jus",
+    "category": ""
+  },
+  {
+    "russian": "мясо",
+    "norwegian": "kjøtt",
+    "category": ""
+  },
+  {
+    "russian": "курица",
+    "norwegian": "kylling",
+    "category": ""
+  },
+  {
+    "russian": "рыба",
+    "norwegian": "fisk",
+    "category": ""
+  },
+  {
+    "russian": "картофель",
+    "norwegian": "potet",
+    "category": ""
+  },
+  {
+    "russian": "морковь",
+    "norwegian": "gulrot",
+    "category": ""
+  },
+  {
+    "russian": "лук",
+    "norwegian": "løk",
+    "category": ""
+  },
+  {
+    "russian": "помидор",
+    "norwegian": "tomat",
+    "category": ""
+  },
+  {
+    "russian": "огурец",
+    "norwegian": "agurk",
+    "category": ""
+  },
+  {
+    "russian": "капуста",
+    "norwegian": "kål",
+    "category": ""
+  },
+  {
+    "russian": "салат",
+    "norwegian": "salat",
+    "category": ""
+  },
+  {
+    "russian": "одежда",
+    "norwegian": "klær",
+    "category": ""
+  },
+  {
+    "russian": "рубашка",
+    "norwegian": "skjorte",
+    "category": ""
+  },
+  {
+    "russian": "брюки",
+    "norwegian": "bukse",
+    "category": ""
+  },
+  {
+    "russian": "пальто",
+    "norwegian": "frakk",
+    "category": ""
+  },
+  {
+    "russian": "куртка",
+    "norwegian": "jakke",
+    "category": ""
+  },
+  {
+    "russian": "платье",
+    "norwegian": "kjole",
+    "category": ""
+  },
+  {
+    "russian": "юбка",
+    "norwegian": "skjørt",
+    "category": ""
+  },
+  {
+    "russian": "шапка",
+    "norwegian": "lue",
+    "category": ""
+  },
+  {
+    "russian": "обувь",
+    "norwegian": "sko",
+    "category": ""
+  },
+  {
+    "russian": "носок",
+    "norwegian": "sokk",
+    "category": ""
+  },
+  {
+    "russian": "перчатка",
+    "norwegian": "hanske",
+    "category": ""
+  },
+  {
+    "russian": "шарф",
+    "norwegian": "skjerf",
+    "category": ""
+  },
+  {
+    "russian": "учитель",
+    "norwegian": "lærer",
+    "category": ""
+  },
+  {
+    "russian": "врач",
+    "norwegian": "doktor",
+    "category": ""
+  },
+  {
+    "russian": "инженер",
+    "norwegian": "ingeniør",
+    "category": ""
+  },
+  {
+    "russian": "повар",
+    "norwegian": "kokk",
+    "category": ""
+  },
+  {
+    "russian": "водитель",
+    "norwegian": "sjåfør",
+    "category": ""
+  },
+  {
+    "russian": "продавец",
+    "norwegian": "selger",
+    "category": ""
+  },
+  {
+    "russian": "студент",
+    "norwegian": "student",
+    "category": ""
+  },
+  {
+    "russian": "писатель",
+    "norwegian": "forfatter",
+    "category": ""
+  },
+  {
+    "russian": "художник",
+    "norwegian": "kunstner",
+    "category": ""
+  },
+  {
+    "russian": "музыкант",
+    "norwegian": "musiker",
+    "category": ""
+  },
+  {
+    "russian": "зуб",
+    "norwegian": "tann",
+    "category": ""
+  },
+  {
+    "russian": "волос",
+    "norwegian": "hår",
+    "category": ""
+  },
+  {
+    "russian": "кожа",
+    "norwegian": "hud",
+    "category": ""
+  },
+  {
+    "russian": "сердце",
+    "norwegian": "hjerte",
+    "category": ""
+  },
+  {
+    "russian": "кровь",
+    "norwegian": "blod",
+    "category": ""
+  },
+  {
+    "russian": "мозг",
+    "norwegian": "hjerne",
+    "category": ""
+  },
+  {
+    "russian": "кость",
+    "norwegian": "bein",
+    "category": ""
+  },
+  {
+    "russian": "песок",
+    "norwegian": "sand",
+    "category": ""
+  },
+  {
+    "russian": "камень",
+    "norwegian": "stein",
+    "category": ""
+  },
+  {
+    "russian": "земля",
+    "norwegian": "jord",
+    "category": ""
+  },
+  {
+    "russian": "трава",
+    "norwegian": "gress",
+    "category": ""
+  },
+  {
+    "russian": "озеро",
+    "norwegian": "innsjø",
+    "category": ""
+  },
+  {
+    "russian": "пляж",
+    "norwegian": "strand",
+    "category": ""
+  },
+  {
+    "russian": "остров",
+    "norwegian": "øy",
+    "category": ""
+  },
+  {
+    "russian": "обувь",
+    "norwegian": "fottøy",
+    "category": ""
+  },
+  {
+    "russian": "сапог",
+    "norwegian": "støvel",
+    "category": ""
+  },
+  {
+    "russian": "ремень",
+    "norwegian": "belte",
+    "category": ""
+  },
+  {
+    "russian": "часы",
+    "norwegian": "klokke",
+    "category": ""
+  },
+  {
+    "russian": "очки",
+    "norwegian": "briller",
+    "category": ""
+  },
+  {
+    "russian": "зонтик",
+    "norwegian": "paraply",
+    "category": ""
+  },
+  {
+    "russian": "ключ",
+    "norwegian": "nøkkel",
+    "category": ""
+  },
+  {
+    "russian": "замок",
+    "norwegian": "lås",
+    "category": ""
+  },
+  {
+    "russian": "сумка",
+    "norwegian": "bag",
+    "category": ""
+  },
+  {
+    "russian": "чемодан",
+    "norwegian": "koffert",
+    "category": ""
+  },
+  {
+    "russian": "кошелёк",
+    "norwegian": "veske",
+    "category": ""
+  },
+  {
+    "russian": "бумага",
+    "norwegian": "papir",
+    "category": ""
+  },
+  {
+    "russian": "карандаш",
+    "norwegian": "blyant",
+    "category": ""
+  },
+  {
+    "russian": "ручка",
+    "norwegian": "penn",
+    "category": ""
+  },
+  {
+    "russian": "нож",
+    "norwegian": "kniv",
+    "category": ""
+  },
+  {
+    "russian": "вилка",
+    "norwegian": "gaffel",
+    "category": ""
+  },
+  {
+    "russian": "ложка",
+    "norwegian": "skje",
+    "category": ""
+  },
+  {
+    "russian": "тарелка",
+    "norwegian": "tallerken",
+    "category": ""
+  },
+  {
+    "russian": "чашка",
+    "norwegian": "kopp",
+    "category": ""
+  },
+  {
+    "russian": "стакан",
+    "norwegian": "glass",
+    "category": ""
+  },
+  {
+    "russian": "чайник",
+    "norwegian": "kjel",
+    "category": ""
+  },
+  {
+    "russian": "сковорода",
+    "norwegian": "stekepanne",
+    "category": ""
+  },
+  {
+    "russian": "холодильник",
+    "norwegian": "kjøleskap",
+    "category": ""
+  },
+  {
+    "russian": "плита",
+    "norwegian": "komfyr",
+    "category": ""
+  },
+  {
+    "russian": "печь",
+    "norwegian": "ovn",
+    "category": ""
+  },
+  {
+    "russian": "микроволновка",
+    "norwegian": "mikrobølgeovn",
+    "category": ""
+  },
+  {
+    "russian": "пылесос",
+    "norwegian": "støvsuger",
+    "category": ""
+  },
+  {
+    "russian": "утюг",
+    "norwegian": "strykejern",
+    "category": ""
+  },
+  {
+    "russian": "стиральная машина",
+    "norwegian": "vaskemaskin",
+    "category": ""
+  },
+  {
+    "russian": "зеркало",
+    "norwegian": "speil",
+    "category": ""
+  },
+  {
+    "russian": "полотенце",
+    "norwegian": "håndkle",
+    "category": ""
+  },
+  {
+    "russian": "мыло",
+    "norwegian": "såpe",
+    "category": ""
+  },
+  {
+    "russian": "шампунь",
+    "norwegian": "sjampo",
+    "category": ""
+  },
+  {
+    "russian": "зубная паста",
+    "norwegian": "tannkrem",
+    "category": ""
+  },
+  {
+    "russian": "зубная щётка",
+    "norwegian": "tannbørste",
+    "category": ""
+  },
+  {
+    "russian": "расчёска",
+    "norwegian": "kam",
+    "category": ""
+  },
+  {
+    "russian": "фен",
+    "norwegian": "hårføner",
+    "category": ""
+  },
+  {
+    "russian": "подушка",
+    "norwegian": "pute",
+    "category": ""
+  },
+  {
+    "russian": "одеяло",
+    "norwegian": "dyne",
+    "category": ""
+  },
+  {
+    "russian": "простыня",
+    "norwegian": "laken",
+    "category": ""
+  },
+  {
+    "russian": "шкаф",
+    "norwegian": "skap",
+    "category": ""
+  },
+  {
+    "russian": "полка",
+    "norwegian": "hylle",
+    "category": ""
+  },
+  {
+    "russian": "ковёр",
+    "norwegian": "teppe",
+    "category": ""
+  },
+  {
+    "russian": "занавеска",
+    "norwegian": "gardin",
+    "category": ""
+  },
+  {
+    "russian": "люстра",
+    "norwegian": "lysekrone",
+    "category": ""
+  },
+  {
+    "russian": "автомобиль",
+    "norwegian": "bil",
+    "category": ""
+  },
+  {
+    "russian": "трамвай",
+    "norwegian": "trikk",
+    "category": ""
+  },
+  {
+    "russian": "метро",
+    "norwegian": "bane",
+    "category": ""
+  },
+  {
+    "russian": "лодка",
+    "norwegian": "båt",
+    "category": ""
+  },
+  {
+    "russian": "корабль",
+    "norwegian": "skip",
+    "category": ""
+  },
+  {
+    "russian": "велосипед",
+    "norwegian": "sykkel",
+    "category": ""
+  },
+  {
+    "russian": "мотоцикл",
+    "norwegian": "motorsykkel",
+    "category": ""
+  },
+  {
+    "russian": "троллейбус",
+    "norwegian": "trolleybuss",
+    "category": ""
+  },
+  {
+    "russian": "билет",
+    "norwegian": "billett",
+    "category": ""
+  },
+  {
+    "russian": "пассажир",
+    "norwegian": "passasjer",
+    "category": ""
+  },
+  {
+    "russian": "аэропорт",
+    "norwegian": "flyplass",
+    "category": ""
+  },
+  {
+    "russian": "вокзал",
+    "norwegian": "stasjon",
+    "category": ""
+  },
+  {
+    "russian": "порт",
+    "norwegian": "havn",
+    "category": ""
+  },
+  {
+    "russian": "адвокат",
+    "norwegian": "advokat",
+    "category": ""
+  },
+  {
+    "russian": "журналист",
+    "norwegian": "journalist",
+    "category": ""
+  },
+  {
+    "russian": "архитектор",
+    "norwegian": "arkitekt",
+    "category": ""
+  },
+  {
+    "russian": "фермер",
+    "norwegian": "bonde",
+    "category": ""
+  },
+  {
+    "russian": "парикмахер",
+    "norwegian": "frisør",
+    "category": ""
+  },
+  {
+    "russian": "полицейский",
+    "norwegian": "politimann",
+    "category": ""
+  },
+  {
+    "russian": "пожарный",
+    "norwegian": "brannmann",
+    "category": ""
+  },
+  {
+    "russian": "медсестра",
+    "norwegian": "sykepleier",
+    "category": ""
+  },
+  {
+    "russian": "учёный",
+    "norwegian": "forsker",
+    "category": ""
+  },
+  {
+    "russian": "переводчик",
+    "norwegian": "oversetter",
+    "category": ""
+  },
+  {
+    "russian": "виноград",
+    "norwegian": "drue",
+    "category": ""
+  },
+  {
+    "russian": "груша",
+    "norwegian": "pære",
+    "category": ""
+  },
+  {
+    "russian": "ананас",
+    "norwegian": "ananas",
+    "category": ""
+  },
+  {
+    "russian": "клубника",
+    "norwegian": "jordbær",
+    "category": ""
+  },
+  {
+    "russian": "малина",
+    "norwegian": "bringebær",
+    "category": ""
+  },
+  {
+    "russian": "черника",
+    "norwegian": "blåbær",
+    "category": ""
+  },
+  {
+    "russian": "рис",
+    "norwegian": "ris",
+    "category": ""
+  },
+  {
+    "russian": "макароны",
+    "norwegian": "pasta",
+    "category": ""
+  },
+  {
+    "russian": "мука",
+    "norwegian": "mel",
+    "category": ""
+  },
+  {
+    "russian": "мёд",
+    "norwegian": "honning",
+    "category": ""
+  },
+  {
+    "russian": "джем",
+    "norwegian": "syltetøy",
+    "category": ""
+  },
+  {
+    "russian": "яйцо",
+    "norwegian": "egg",
+    "category": ""
+  },
+  {
+    "russian": "сосиска",
+    "norwegian": "pølse",
+    "category": ""
+  },
+  {
+    "russian": "пицца",
+    "norwegian": "pizza",
+    "category": ""
+  },
+  {
+    "russian": "салат",
+    "norwegian": "salat",
+    "category": ""
+  },
+  {
+    "russian": "торт",
+    "norwegian": "kake",
+    "category": ""
+  },
+  {
+    "russian": "печенье",
+    "norwegian": "kjeks",
+    "category": ""
+  },
+  {
+    "russian": "мороженое",
+    "norwegian": "is",
+    "category": ""
+  },
+  {
+    "russian": "шоколад",
+    "norwegian": "sjokolade",
+    "category": ""
+  },
+  {
+    "russian": "конфета",
+    "norwegian": "godteri",
+    "category": ""
+  },
+  {
+    "russian": "гриб",
+    "norwegian": "sopp",
+    "category": ""
+  },
+  {
+    "russian": "перец",
+    "norwegian": "paprika",
+    "category": ""
+  },
+  {
+    "russian": "чеснок",
+    "norwegian": "hvitløk",
+    "category": ""
+  },
+  {
+    "russian": "лук",
+    "norwegian": "løk",
+    "category": ""
+  },
+  {
+    "russian": "фасоль",
+    "norwegian": "bønne",
+    "category": ""
+  },
+  {
+    "russian": "горох",
+    "norwegian": "ert",
+    "category": ""
+  },
+  {
+    "russian": "кабачок",
+    "norwegian": "squash",
+    "category": ""
+  },
+  {
+    "russian": "тыква",
+    "norwegian": "gresskar",
+    "category": ""
+  },
+  {
+    "russian": "баклажан",
+    "norwegian": "aubergine",
+    "category": ""
+  },
+  {
+    "russian": "цветная капуста",
+    "norwegian": "blomkål",
+    "category": ""
+  },
+  {
+    "russian": "брокколи",
+    "norwegian": "brokkoli",
+    "category": ""
+  },
+  {
+    "russian": "спаржа",
+    "norwegian": "asparges",
+    "category": ""
+  },
+  {
+    "russian": "шпинат",
+    "norwegian": "spinat",
+    "category": ""
+  },
+  {
+    "russian": "природа",
+    "norwegian": "natur",
+    "category": ""
+  },
+  {
+    "russian": "поле",
+    "norwegian": "mark",
+    "category": ""
+  },
+  {
+    "russian": "долина",
+    "norwegian": "dal",
+    "category": ""
+  },
+  {
+    "russian": "холм",
+    "norwegian": "ås",
+    "category": ""
+  },
+  {
+    "russian": "водопад",
+    "norwegian": "foss",
+    "category": ""
+  },
+  {
+    "russian": "озеро",
+    "norwegian": "sjø",
+    "category": ""
+  },
+  {
+    "russian": "пустыня",
+    "norwegian": "ørken",
+    "category": ""
+  },
+  {
+    "russian": "туман",
+    "norwegian": "tåke",
+    "category": ""
+  },
+  {
+    "russian": "молния",
+    "norwegian": "lyn",
+    "category": ""
+  },
+  {
+    "russian": "гром",
+    "norwegian": "torden",
+    "category": ""
+  },
+  {
+    "russian": "радуга",
+    "norwegian": "regnbue",
+    "category": ""
+  },
+  {
+    "russian": "счастье",
+    "norwegian": "lykke",
+    "category": ""
+  },
+  {
+    "russian": "страх",
+    "norwegian": "frykt",
+    "category": ""
+  },
+  {
+    "russian": "гнев",
+    "norwegian": "sinne",
+    "category": ""
+  },
+  {
+    "russian": "надежда",
+    "norwegian": "håp",
+    "category": ""
+  },
+  {
+    "russian": "удивление",
+    "norwegian": "overraskelse",
+    "category": ""
+  },
+  {
+    "russian": "усталость",
+    "norwegian": "tretthet",
+    "category": ""
+  },
+  {
+    "russian": "мечта",
+    "norwegian": "drøm",
+    "category": ""
+  },
+  {
+    "russian": "цель",
+    "norwegian": "mål",
+    "category": ""
+  },
+  {
+    "russian": "идея",
+    "norwegian": "idé",
+    "category": ""
+  },
+  {
+    "russian": "план",
+    "norwegian": "plan",
+    "category": ""
+  },
+  {
+    "russian": "покупать",
+    "norwegian": "kjøpe",
+    "category": ""
+  },
+  {
+    "russian": "продавать",
+    "norwegian": "selge",
+    "category": ""
+  },
+  {
+    "russian": "писать",
+    "norwegian": "skrive",
+    "category": ""
+  },
+  {
+    "russian": "читать",
+    "norwegian": "lese",
+    "category": ""
+  },
+  {
+    "russian": "считать",
+    "norwegian": "telle",
+    "category": ""
+  },
+  {
+    "russian": "слушать",
+    "norwegian": "lytte",
+    "category": ""
+  },
+  {
+    "russian": "петь",
+    "norwegian": "synge",
+    "category": ""
+  },
+  {
+    "russian": "танцевать",
+    "norwegian": "danse",
+    "category": ""
+  },
+  {
+    "russian": "рисовать",
+    "norwegian": "tegne",
+    "category": ""
+  },
+  {
+    "russian": "готовить",
+    "norwegian": "lage mat",
+    "category": ""
+  },
+  {
+    "russian": "спорт",
+    "norwegian": "sport",
+    "category": ""
+  },
+  {
+    "russian": "футбол",
+    "norwegian": "fotball",
+    "category": ""
+  },
+  {
+    "russian": "баскетбол",
+    "norwegian": "basketball",
+    "category": ""
+  },
+  {
+    "russian": "волейбол",
+    "norwegian": "volleyball",
+    "category": ""
+  },
+  {
+    "russian": "теннис",
+    "norwegian": "tennis",
+    "category": ""
+  },
+  {
+    "russian": "плавание",
+    "norwegian": "svømming",
+    "category": ""
+  },
+  {
+    "russian": "бег",
+    "norwegian": "løping",
+    "category": ""
+  },
+  {
+    "russian": "велоспорт",
+    "norwegian": "sykling",
+    "category": ""
+  },
+  {
+    "russian": "гимнастика",
+    "norwegian": "gymnastikk",
+    "category": ""
+  },
+  {
+    "russian": "бокс",
+    "norwegian": "boksing",
+    "category": ""
+  },
+  {
+    "russian": "лыжи",
+    "norwegian": "ski",
+    "category": ""
+  },
+  {
+    "russian": "коньки",
+    "norwegian": "skøyter",
+    "category": ""
+  },
+  {
+    "russian": "мяч",
+    "norwegian": "ball",
+    "category": ""
+  },
+  {
+    "russian": "команда",
+    "norwegian": "lag",
+    "category": ""
+  },
+  {
+    "russian": "игрок",
+    "norwegian": "spiller",
+    "category": ""
+  },
+  {
+    "russian": "тренер",
+    "norwegian": "trener",
+    "category": ""
+  },
+  {
+    "russian": "стадион",
+    "norwegian": "stadion",
+    "category": ""
+  },
+  {
+    "russian": "гол",
+    "norwegian": "mål",
+    "category": ""
+  },
+  {
+    "russian": "победа",
+    "norwegian": "seier",
+    "category": ""
+  },
+  {
+    "russian": "поражение",
+    "norwegian": "tap",
+    "category": ""
+  },
+  {
+    "russian": "здоровье",
+    "norwegian": "helse",
+    "category": ""
+  },
+  {
+    "russian": "болезнь",
+    "norwegian": "sykdom",
+    "category": ""
+  },
+  {
+    "russian": "лекарство",
+    "norwegian": "medisin",
+    "category": ""
+  },
+  {
+    "russian": "таблетка",
+    "norwegian": "tablett",
+    "category": ""
+  },
+  {
+    "russian": "укол",
+    "norwegian": "injeksjon",
+    "category": ""
+  },
+  {
+    "russian": "больница",
+    "norwegian": "sykehus",
+    "category": ""
+  },
+  {
+    "russian": "аптека",
+    "norwegian": "apotek",
+    "category": ""
+  },
+  {
+    "russian": "температура",
+    "norwegian": "temperatur",
+    "category": ""
+  },
+  {
+    "russian": "кашель",
+    "norwegian": "hoste",
+    "category": ""
+  },
+  {
+    "russian": "насморк",
+    "norwegian": "snue",
+    "category": ""
+  },
+  {
+    "russian": "боль",
+    "norwegian": "smerte",
+    "category": ""
+  },
+  {
+    "russian": "аллергия",
+    "norwegian": "allergi",
+    "category": ""
+  },
+  {
+    "russian": "диета",
+    "norwegian": "diett",
+    "category": ""
+  },
+  {
+    "russian": "витамин",
+    "norwegian": "vitamin",
+    "category": ""
+  },
+  {
+    "russian": "сон",
+    "norwegian": "søvn",
+    "category": ""
+  },
+  {
+    "russian": "стресс",
+    "norwegian": "stress",
+    "category": ""
+  },
+  {
+    "russian": "релаксация",
+    "norwegian": "avslapning",
+    "category": ""
+  },
+  {
+    "russian": "технология",
+    "norwegian": "teknologi",
+    "category": ""
+  },
+  {
+    "russian": "смартфон",
+    "norwegian": "smarttelefon",
+    "category": ""
+  },
+  {
+    "russian": "ноутбук",
+    "norwegian": "bærbar PC",
+    "category": ""
+  },
+  {
+    "russian": "принтер",
+    "norwegian": "skriver",
+    "category": ""
+  },
+  {
+    "russian": "камера",
+    "norwegian": "kamera",
+    "category": ""
+  },
+  {
+    "russian": "экран",
+    "norwegian": "skjerm",
+    "category": ""
+  },
+  {
+    "russian": "клавиатура",
+    "norwegian": "tastatur",
+    "category": ""
+  },
+  {
+    "russian": "мышь",
+    "norwegian": "mus",
+    "category": ""
+  },
+  {
+    "russian": "программа",
+    "norwegian": "program",
+    "category": ""
+  },
+  {
+    "russian": "приложение",
+    "norwegian": "app",
+    "category": ""
+  },
+  {
+    "russian": "файл",
+    "norwegian": "fil",
+    "category": ""
+  },
+  {
+    "russian": "сайт",
+    "norwegian": "nettside",
+    "category": ""
+  },
+  {
+    "russian": "пароль",
+    "norwegian": "passord",
+    "category": ""
+  },
+  {
+    "russian": "вирус",
+    "norwegian": "virus",
+    "category": ""
+  },
+  {
+    "russian": "обновление",
+    "norwegian": "oppdatering",
+    "category": ""
+  },
+  {
+    "russian": "сеть",
+    "norwegian": "nettverk",
+    "category": ""
+  },
+  {
+    "russian": "сигнал",
+    "norwegian": "signal",
+    "category": ""
+  },
+  {
+    "russian": "батарея",
+    "norwegian": "batteri",
+    "category": ""
+  },
+  {
+    "russian": "зарядка",
+    "norwegian": "lader",
+    "category": ""
+  },
+  {
+    "russian": "гаджет",
+    "norwegian": "gadget",
+    "category": ""
+  },
+  {
+    "russian": "истина",
+    "norwegian": "sannhet",
+    "category": ""
+  },
+  {
+    "russian": "ложь",
+    "norwegian": "løgn",
+    "category": ""
+  },
+  {
+    "russian": "свобода",
+    "norwegian": "frihet",
+    "category": ""
+  },
+  {
+    "russian": "равенство",
+    "norwegian": "likhet",
+    "category": ""
+  },
+  {
+    "russian": "справедливость",
+    "norwegian": "rettferdighet",
+    "category": ""
+  },
+  {
+    "russian": "мир",
+    "norwegian": "fred",
+    "category": ""
+  },
+  {
+    "russian": "война",
+    "norwegian": "krig",
+    "category": ""
+  },
+  {
+    "russian": "культура",
+    "norwegian": "kultur",
+    "category": ""
+  },
+  {
+    "russian": "традиция",
+    "norwegian": "tradisjon",
+    "category": ""
+  },
+  {
+    "russian": "религия",
+    "norwegian": "religion",
+    "category": ""
+  },
+  {
+    "russian": "вера",
+    "norwegian": "tro",
+    "category": ""
+  },
+  {
+    "russian": "наука",
+    "norwegian": "vitenskap",
+    "category": ""
+  },
+  {
+    "russian": "искусство",
+    "norwegian": "kunst",
+    "category": ""
+  },
+  {
+    "russian": "литература",
+    "norwegian": "litteratur",
+    "category": ""
+  },
+  {
+    "russian": "история",
+    "norwegian": "historie",
+    "category": ""
+  },
+  {
+    "russian": "география",
+    "norwegian": "geografi",
+    "category": ""
+  },
+  {
+    "russian": "математика",
+    "norwegian": "matematikk",
+    "category": ""
+  },
+  {
+    "russian": "физика",
+    "norwegian": "fysikk",
+    "category": ""
+  },
+  {
+    "russian": "химия",
+    "norwegian": "kjemi",
+    "category": ""
+  },
+  {
+    "russian": "биология",
+    "norwegian": "biologi",
+    "category": ""
+  },
+  {
+    "russian": "бежать",
+    "norwegian": "løpe",
+    "category": ""
+  },
+  {
+    "russian": "прыгать",
+    "norwegian": "hoppe",
+    "category": ""
+  },
+  {
+    "russian": "летать",
+    "norwegian": "fly",
+    "category": ""
+  },
+  {
+    "russian": "плыть",
+    "norwegian": "svømme",
+    "category": ""
+  },
+  {
+    "russian": "ездить",
+    "norwegian": "kjøre",
+    "category": ""
+  },
+  {
+    "russian": "ходить",
+    "norwegian": "gå",
+    "category": ""
+  },
+  {
+    "russian": "кричать",
+    "norwegian": "rope",
+    "category": ""
+  },
+  {
+    "russian": "шептать",
+    "norwegian": "hviske",
+    "category": ""
+  },
+  {
+    "russian": "смеяться",
+    "norwegian": "le",
+    "category": ""
+  },
+  {
+    "russian": "плакать",
+    "norwegian": "gråte",
+    "category": ""
+  },
+  {
+    "russian": "думать",
+    "norwegian": "tenke",
+    "category": ""
+  },
+  {
+    "russian": "помнить",
+    "norwegian": "huske",
+    "category": ""
+  },
+  {
+    "russian": "забывать",
+    "norwegian": "glemme",
+    "category": ""
+  },
+  {
+    "russian": "решать",
+    "norwegian": "løse",
+    "category": ""
+  },
+  {
+    "russian": "строить",
+    "norwegian": "bygge",
+    "category": ""
+  },
+  {
+    "russian": "ломать",
+    "norwegian": "ødelegge",
+    "category": ""
+  },
+  {
+    "russian": "чинить",
+    "norwegian": "reparere",
+    "category": ""
+  },
+  {
+    "russian": "создавать",
+    "norwegian": "skape",
+    "category": ""
+  },
+  {
+    "russian": "изучать",
+    "norwegian": "studere",
+    "category": ""
+  },
+  {
+    "russian": "учить",
+    "norwegian": "lære",
+    "category": ""
+  },
+  {
+    "russian": "кровать",
+    "norwegian": "seng",
+    "category": ""
+  },
+  {
+    "russian": "диван",
+    "norwegian": "sofa",
+    "category": ""
+  },
+  {
+    "russian": "кресло",
+    "norwegian": "stol",
+    "category": ""
+  },
+  {
+    "russian": "шкаф",
+    "norwegian": "garderobe",
+    "category": ""
+  },
+  {
+    "russian": "комод",
+    "norwegian": "kommode",
+    "category": ""
+  },
+  {
+    "russian": "тумбочка",
+    "norwegian": "nattbord",
+    "category": ""
+  },
+  {
+    "russian": "коврик",
+    "norwegian": "matte",
+    "category": ""
+  },
+  {
+    "russian": "картина",
+    "norwegian": "bilde",
+    "category": ""
+  },
+  {
+    "russian": "ваза",
+    "norwegian": "vase",
+    "category": ""
+  },
+  {
+    "russian": "цветок",
+    "norwegian": "blomst",
+    "category": ""
+  },
+  {
+    "russian": "часы",
+    "norwegian": "ur",
+    "category": ""
+  },
+  {
+    "russian": "календарь",
+    "norwegian": "kalender",
+    "category": ""
+  },
+  {
+    "russian": "фото",
+    "norwegian": "bilde",
+    "category": ""
+  },
+  {
+    "russian": "альбом",
+    "norwegian": "album",
+    "category": ""
+  },
+  {
+    "russian": "игрушка",
+    "norwegian": "leketøy",
+    "category": ""
+  },
+  {
+    "russian": "кукла",
+    "norwegian": "dukke",
+    "category": ""
+  },
+  {
+    "russian": "машинка",
+    "norwegian": "bil",
+    "category": ""
+  },
+  {
+    "russian": "конструктор",
+    "norwegian": "byggesett",
+    "category": ""
+  },
+  {
+    "russian": "пазл",
+    "norwegian": "puslespill",
+    "category": ""
+  },
+  {
+    "russian": "настольная игра",
+    "norwegian": "brettspill",
+    "category": ""
+  }
+]
