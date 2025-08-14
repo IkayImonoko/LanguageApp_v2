@@ -10,9 +10,9 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll", policy =>
     {
         policy
-            .AllowAnyOrigin()   // Разрешить любой origin
-            .AllowAnyMethod()   // Разрешить любые HTTP-методы
-            .AllowAnyHeader();  // Разрешить любые заголовки
+            .AllowAnyOrigin()  
+            .AllowAnyMethod()  
+            .AllowAnyHeader();  
     });
 });
 var app = builder.Build();
