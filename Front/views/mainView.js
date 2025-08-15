@@ -5,9 +5,13 @@ function mainView() {
         case 'userpage':
             currentPageView = userpageView();
             break;
+        case 'wordsBase':
+            currentPageView = wordsBaseView();
+            break;
     }
 
-    document.getElementById('app').innerHTML = /*HTML*/ `
+
+document.getElementById('app').innerHTML = /*HTML*/ `
         <div id='mainContainer'>
             <header>
                 ${loginView()}
@@ -16,11 +20,11 @@ function mainView() {
                 ${currentPageView}
             </main>
             <footer>
-            ${model.words ? model.words.map(word => 
-                `<div>
+            ${model.words ? model.words.map(word =>
+    `<div>
                   ${word.russian}
                 </div>`
-              ).join('') : ''}
+).join('') : ''}
             </footer>
         </div>
     `;

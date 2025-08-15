@@ -10,6 +10,7 @@
     <script src="views/mainView.js"></script>
     <script src="views/userpageView.js"></script>
     <script src="views/loginView.js"></script>
+    <script src="views/wordsBaseViev.js"></script>
     <script src="controllers/userpageController.js"></script>
     <script src="controllers/loginController.js"></script>
     <script src="controllers/common.js"></script>
@@ -23,15 +24,17 @@
         getWordPairsFromApi();
 
         async function getWordPairsFromApi() {
-            //onload="mainView()"
-            // const url = "http://localhost:5127/wordpairs";
-            // const response = await fetch(url);
-            // model.words = await response.json();
             fetch("http://localhost:5127/wordpairs")
                 .then(res => res.json())
                 .then(data => {
                     model.words = data;
-                    mainView(); // вызывать рендер только после получения
+                })
+                .catch(err => {
+                    console.error("Ошибка при получении данных:", err);
+                    model.words = []; // можно задать пустой массив или дефолтные данные
+                })
+                .finally(() => {
+                    mainView(); // вызывается всегда
                 });
 
         }
