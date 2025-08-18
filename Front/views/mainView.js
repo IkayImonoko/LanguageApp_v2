@@ -20,11 +20,6 @@ document.getElementById('app').innerHTML = /*HTML*/ `
                 ${currentPageView}
             </main>
             <footer>
-            ${model.words ? model.words.map(word =>
-    `<div>
-                  ${word.russian}
-                </div>`
-).join('') : ''}
             </footer>
         </div>
     `;

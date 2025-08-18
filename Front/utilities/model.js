@@ -1,6 +1,6 @@
 const model = {
     app: {
-        page: 'userpage'
+        page: 'wordsBase'
     },
     inputs: {
         userpage: {
