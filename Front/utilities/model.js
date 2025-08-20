@@ -9,7 +9,12 @@ const model = {
         login: {
             username: null,
             password: null
-        }
+        },
+        addword: {
+            russian: null,
+            norwegian: null,
+            category: null
+        },
 
     },
     data: {

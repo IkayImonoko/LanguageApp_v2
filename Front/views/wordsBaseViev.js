@@ -21,14 +21,14 @@ function wordsBaseView() {
 
     var addNewWordHTML = /*HTML*/`
     <div>
-        <label for ="ruInput">Russian</label>
-        <input id="ruInput">
+        <label for ="ruInput" >Russian</label>
+        <input id="ruInput" placeholder = "${model.inputs.addword.russian ?? ''}" onchange ="model.inputs.addword.russian = this.value">
         <label for ="noInput">Norvegian</label>
-        <input id="noInput">
+        <input id="noInput" placeholder = "${model.inputs.addword.norwegian ?? ''}" onchange ="model.inputs.addword.norwegian = this.value">
         <label for ="categoryInput">Category</label>
-        <input id="categoryInput">
+        <input id="categoryInput" placeholder = "${model.inputs.addword.category ?? ''}" onchange ="model.inputs.addword.category = this.value">
     </div>
-    <button>New word</button>
+    <button onclick="sendWordPairToApi()">New word</button>
     `;
     wordPairsHTML += addNewWordHTML;
 

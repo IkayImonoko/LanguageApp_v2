@@ -1,3 +1,4 @@
+using LanguageAppApi;
 using LanguageAppApi.Storage;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,5 +33,10 @@ app.MapGet("/wordpairs", () =>
         return wordPairsStorage.GetWordPairs();
     })
     .WithName("GetWordPairs");
+
+app.MapPost("/wordpair", (WordPair wordPair) =>
+{
+    wordPairsStorage.AddClaimedSquare(wordPair);
+});
 
 app.Run();
