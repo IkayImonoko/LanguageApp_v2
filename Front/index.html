@@ -13,6 +13,7 @@
     <script src="views/wordsBaseViev.js"></script>
     <script src="controllers/userpageController.js"></script>
     <script src="controllers/loginController.js"></script>
+    <script src="controllers/wordsBaseController.js"></script>
     <script src="controllers/common.js"></script>
     <link rel="stylesheet" href="styles/style.css">
     <style>
@@ -81,6 +82,21 @@
             model.inputs.addword.russian = null;
             model.inputs.addword.norwegian = null;
             model.inputs.addword.category = null;
+            getWordPairsFromApi();
+        }
+
+        async function deleteWordPairsTroughApi(){
+            const url = "http://localhost:5127/wordpairs";
+            const idsToDelete = model.inputs.wordsbase.selectedWords;
+            const response = await fetch(url, {
+                method: "DELETE",
+                body: JSON.stringify(idsToDelete),
+                headers: {
+                    'Accept': 'application/json, text/plain',
+                    'Content-Type': 'application/json;charset=UTF-8'
+                }
+            });
+            model.inputs.wordsbase.selectedWords = [];
             getWordPairsFromApi();
         }
     </script>

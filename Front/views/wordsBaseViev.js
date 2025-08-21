@@ -1,10 +1,11 @@
 function wordsBaseView() {
 
     var wordPairsHTML = /*HTML*/`
-    <div class="table-wrapper">
+    <div id="wordsTable" class="table-wrapper" onscroll='localStorage.setItem("tableScroll", this.scrollTop)'>
         <table>
             <thead>
                 <tr>
+                <th></th>
                 <th>Russian</th>
                 <th>Norwegian</th>
                 <th>Category</th>
@@ -12,7 +13,11 @@ function wordsBaseView() {
             </thead>
             <tbody id="wordTableBody">
     `;
-    wordPairsHTML += model.data.words ? model.data.words.map((w) => ` <tr><td>${w.russian}</td> <td>${w.norwegian}</td> <td>${w.category}</td></tr>`).join('') : '';
+    
+    wordPairsHTML += model.data.words ? model.data.words.map((w) => ` <tr><td><input type="checkbox" onchange="handleCheckbox(${w.id})" ${model.inputs.wordsbase.selectedWords.includes(w.id) ? 'checked': ''}></td> 
+                                                                        <td>${w.russian}</td> 
+                                                                        <td>${w.norwegian}</td> 
+                                                                        <td>${w.category}</td></tr>`).join('') : '';
     wordPairsHTML += /*HTML*/`
         </tbody>
         </table>
@@ -29,6 +34,7 @@ function wordsBaseView() {
         <input id="categoryInput" placeholder = "${model.inputs.addword.category ?? ''}" onchange ="model.inputs.addword.category = this.value">
     </div>
     <button onclick="sendWordPairToApi()">New word</button>
+    <button onclick="deleteWordPairsTroughApi()" ${model.inputs.wordsbase.selectedWords.length > 0 ? 'enabled' : 'disabled'}>Delete</button>
     `;
     wordPairsHTML += addNewWordHTML;
 

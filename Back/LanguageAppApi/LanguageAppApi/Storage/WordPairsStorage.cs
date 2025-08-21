@@ -13,11 +13,19 @@ public class WordPairsStorage
         return connection.Query<WordPair>(sql).ToArray();
     }
 
-    public void AddClaimedSquare(WordPair wordPair)
+    public void AddWordPair(WordPair wordPair)
     {
         var connection = new SqlConnection(connectionString);
         var sql = "insert into WordPairs values (@russian, @norwegian, @category)";
         
         var rowsAffected = connection.Execute(sql, wordPair);
+    }
+
+    public void DeleteWordPairs(List<int>? ids)
+    {
+        var connection = new SqlConnection(connectionString);
+        var sql = "delete from WordPairs where id in @Ids ";
+        
+        var rowsAffected = connection.Execute(sql, new { Ids = ids });
     }
 }

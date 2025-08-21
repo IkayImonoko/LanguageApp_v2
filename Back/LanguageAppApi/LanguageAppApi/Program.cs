@@ -36,7 +36,14 @@ app.MapGet("/wordpairs", () =>
 
 app.MapPost("/wordpair", (WordPair wordPair) =>
 {
-    wordPairsStorage.AddClaimedSquare(wordPair);
+    wordPairsStorage.AddWordPair(wordPair);
+});
+
+app.MapDelete("/wordpairs", async (HttpContext context) =>
+{
+    var ids = await context.Request.ReadFromJsonAsync<List<int>>();
+    wordPairsStorage.DeleteWordPairs(ids);
+    return Results.Ok(new { deletedIds = ids });
 });
 
 app.Run();

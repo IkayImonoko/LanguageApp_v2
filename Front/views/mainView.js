@@ -23,4 +23,6 @@ document.getElementById('app').innerHTML = /*HTML*/ `
             </footer>
         </div>
     `;
+    
+document.getElementById("wordsTable").scrollTop = parseInt(localStorage.getItem("tableScroll"));   
 }

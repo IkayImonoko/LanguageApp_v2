@@ -15,6 +15,9 @@ const model = {
             norwegian: null,
             category: null
         },
+        wordsbase: {
+            selectedWords: [],
+        },
 
     },
     data: {
