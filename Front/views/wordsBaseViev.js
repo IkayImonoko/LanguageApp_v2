@@ -9,15 +9,19 @@ function wordsBaseView() {
                 <th>Russian</th>
                 <th>Norwegian</th>
                 <th>Category</th>
+                <th></th>
                 </tr>
             </thead>
             <tbody id="wordTableBody">
     `;
-    
-    wordPairsHTML += model.data.words ? model.data.words.map((w) => ` <tr><td><input type="checkbox" onchange="handleCheckbox(${w.id})" ${model.inputs.wordsbase.selectedWords.includes(w.id) ? 'checked': ''}></td> 
-                                                                        <td>${w.russian}</td> 
-                                                                        <td>${w.norwegian}</td> 
-                                                                        <td>${w.category}</td></tr>`).join('') : '';
+
+    wordPairsHTML += model.data.words ? model.data.words.map((w) => ` <tr><td><input type="checkbox" onchange="handleCheckbox(${w.id})" ${model.inputs.wordsbase.selectedWords.includes(w.id) ? 'checked' : ''}></td> 
+                                                                        ${getCellHtml(w,'russian')} 
+                                                                        ${getCellHtml(w,'norwegian')}
+                                                                        ${getCellHtml(w,'category')}
+                                                                        <td><button onclick="handleChangeToggle({id:${w.id}, russian:'${w.russian}', norwegian:'${w.norwegian}', category:'${w.category}'})">change</button>
+                                                                        <button ${model.inputs.wordsbase.changingInputs.find(x => x.id === w.id)  ? '' : 'disabled'}>send</button></td>
+                                                                        </tr>`).join('') : '';
     wordPairsHTML += /*HTML*/`
         </tbody>
         </table>
@@ -39,4 +43,25 @@ function wordsBaseView() {
     wordPairsHTML += addNewWordHTML;
 
     return wordPairsHTML;
+}
+
+function getCellHtml(row, type) {
+    var value;
+    switch (type) {
+        case 'russian':
+            value = row.russian;
+            break;
+        case 'norwegian':
+            value = row.norwegian;
+            break;
+        case 'category':
+            value = row.category;
+            break;
+    }
+    //var input = {id: row.id, [type]: value};
+    //{id: ${row.id}, '${type}': '${value}'}
+    //<button onclick='handleChangeToggle(${JSON.stringify(input)})'>change</button>
+    return /*HTML*/`
+<td><input value="${value}" ${model.inputs.wordsbase.changingInputs.find(x => x.id === row.id)  ? '' : 'disabled'}></td>
+`;
 }

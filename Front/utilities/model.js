@@ -16,6 +16,7 @@ const model = {
             category: null
         },
         wordsbase: {
+            changingInputs: [],
             selectedWords: [],
         },
 
