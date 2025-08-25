@@ -24,7 +24,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 
 var wordPairsStorage = new WordPairsStorage();
@@ -46,4 +46,8 @@ app.MapDelete("/wordpairs", async (HttpContext context) =>
     return Results.Ok(new { deletedIds = ids });
 });
 
+app.MapPut("/wordpair/{id}", async (int id, WordPair wordPair) =>
+{
+    wordPairsStorage.UppdateWordPair(id, wordPair);
+});
 app.Run();

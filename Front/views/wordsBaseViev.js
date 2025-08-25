@@ -20,7 +20,7 @@ function wordsBaseView() {
                                                                         ${getCellHtml(w,'norwegian')}
                                                                         ${getCellHtml(w,'category')}
                                                                         <td><button onclick="handleChangeToggle({id:${w.id}, russian:'${w.russian}', norwegian:'${w.norwegian}', category:'${w.category}'})">change</button>
-                                                                        <button ${model.inputs.wordsbase.changingInputs.find(x => x.id === w.id)  ? '' : 'disabled'}>send</button></td>
+                                                                        <button ${model.inputs.wordsbase.changingInputs.find(x => x.id === w.id)  ? '' : 'disabled'} onclick="uppdateWordPairTroudgApi(${w.id})">send</button></td>
                                                                         </tr>`).join('') : '';
     wordPairsHTML += /*HTML*/`
         </tbody>
@@ -62,6 +62,6 @@ function getCellHtml(row, type) {
     //{id: ${row.id}, '${type}': '${value}'}
     //<button onclick='handleChangeToggle(${JSON.stringify(input)})'>change</button>
     return /*HTML*/`
-<td><input value="${value}" ${model.inputs.wordsbase.changingInputs.find(x => x.id === row.id)  ? '' : 'disabled'}></td>
+<td><input value="${value}" ${model.inputs.wordsbase.changingInputs.find(x => x.id === row.id)  ? '' : 'disabled' } oninput="handleUppdateInput(${row.id}, '${type}', this.value)"></td>
 `;
 }

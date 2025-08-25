@@ -82,7 +82,7 @@
             model.inputs.addword.russian = null;
             model.inputs.addword.norwegian = null;
             model.inputs.addword.category = null;
-            getWordPairsFromApi();
+            await getWordPairsFromApi();
         }
 
         async function deleteWordPairsTroughApi(){
@@ -97,8 +97,23 @@
                 }
             });
             model.inputs.wordsbase.selectedWords = [];
-            getWordPairsFromApi();
+            await getWordPairsFromApi();
         }
+
+        async function uppdateWordPairTroudgApi(id){
+            const url = `http://localhost:5127/wordpair/${id}`;
+            const response = await fetch(url, {
+                method: "PUT",
+                body: JSON.stringify(model.inputs.wordsbase.changingInputs.find(x => x.id === id)),
+                headers: {
+                    'Accept': 'application/json, text/plain',
+                    'Content-Type': 'application/json;charset=UTF-8'
+                }
+            });
+            model.inputs.wordsbase.changingInputs = model.inputs.wordsbase.changingInputs.filter(x => x.id !== id);
+            await getWordPairsFromApi();
+        }
+
     </script>
 </body>
 

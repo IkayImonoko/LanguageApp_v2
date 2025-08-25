@@ -16,3 +16,18 @@ function handleChangeToggle(wordPair) {
     //console.log(wordPair);
     mainView();
 }
+
+function handleUppdateInput(id, type, newValue) {
+    const index = model.inputs.wordsbase.changingInputs.findIndex(item => item.id === id);
+    switch (type) {
+        case 'russian':
+            model.inputs.wordsbase.changingInputs[index].russian = newValue;
+            break;
+        case 'norwegian':
+            model.inputs.wordsbase.changingInputs[index].norwegian = newValue;
+            break;
+        case 'category':
+            model.inputs.wordsbase.changingInputs[index].category = newValue;
+            break;
+    }
+}

@@ -28,4 +28,11 @@ public class WordPairsStorage
         
         var rowsAffected = connection.Execute(sql, new { Ids = ids });
     }
+
+    public void UppdateWordPair(int id, WordPair wordPair)
+    {
+        var connection = new SqlConnection(connectionString);
+        var sql ="update WordPairs set russian = @Russian, norwegian = @Norwegian, category = @Category where id = @Id";
+        var rowsAffected = connection.Execute(sql, new { Id = id, Russian = wordPair.russian, Norwegian = wordPair.norwegian, Category = wordPair.category});
+    }
 }
