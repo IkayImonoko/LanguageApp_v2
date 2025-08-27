@@ -8,13 +8,17 @@ function mainView() {
         case 'wordsBase':
             currentPageView = wordsBaseView();
             break;
+            case 'registreNewUser':
+            currentPageView = registreNewUserView();
+            break;
     }
 
 
-document.getElementById('app').innerHTML = /*HTML*/ `
+    document.getElementById('app').innerHTML = /*HTML*/ `
         <div id='mainContainer'>
             <header>
                 ${loginView()}
+                ${getSwitchingPageBarHTML()}
             </header>
             <main>
                 ${currentPageView}
@@ -23,6 +27,7 @@ document.getElementById('app').innerHTML = /*HTML*/ `
             </footer>
         </div>
     `;
-    
-document.getElementById("wordsTable").scrollTop = parseInt(localStorage.getItem("tableScroll"));   
+    if (page === 'wordsBase') {
+        document.getElementById("wordsTable").scrollTop = parseInt(localStorage.getItem("tableScroll"));
+    }
 }

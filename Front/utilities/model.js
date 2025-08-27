@@ -1,6 +1,7 @@
 const model = {
     app: {
-        page: 'wordsBase'
+        page: 'wordsBase',
+        pages: ['wordsBase', 'userpage', 'registreNewUser']
     },
     inputs: {
         userpage: {
@@ -23,12 +24,12 @@ const model = {
     },
     data: {
         users: [
-            // { id: 1, levelId: 1, name: 'Nikita', email: 'nikita@gmail.com', password: '123' },
-            // { id: 2, levelId: 1, name: 'Sigrid', email: 'sigrid@gmail.com', password: '456' },
-            // { id: 3, levelId: 1, name: 'Peter', email: 'peter@gmail.com', password: '789' },
-            // { id: 4, levelId: 1, name: 'Stian', email: 'stian@gmail.com', password: '321' },
-            // { id: 5, levelId: 1, name: 'Pol', email: 'pol@gmail.com', password: '654' },
-            // { id: 6, levelId: 1, name: 'Tim', email: 'tim@gmail.com', password: '987' },
+            { id: 1, levelId: 1, name: 'Nikita', email: 'nikita@gmail.com', password: '123' },
+            { id: 2, levelId: 1, name: 'Sigrid', email: 'sigrid@gmail.com', password: '456' },
+            { id: 3, levelId: 1, name: 'Peter', email: 'peter@gmail.com', password: '789' },
+            { id: 4, levelId: 1, name: 'Stian', email: 'stian@gmail.com', password: '321' },
+            { id: 5, levelId: 1, name: 'Pol', email: 'pol@gmail.com', password: '654' },
+            { id: 6, levelId: 1, name: 'Tim', email: 'tim@gmail.com', password: '987' },
         ],
         levels: [
             { id: 1, name: 'Level 1' },

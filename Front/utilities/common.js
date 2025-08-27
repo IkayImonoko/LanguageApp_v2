@@ -7,3 +7,8 @@ function setLoginUsernameInput(value){
 function setLoginPasswordInput(value){
     model.inputs.login.password = value;
 }
+
+function switchPage(page){
+    model.app.page = page;
+    mainView();
+}
