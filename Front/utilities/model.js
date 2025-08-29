@@ -20,6 +20,11 @@ const model = {
             changingInputs: [],
             selectedWords: [],
         },
+        registreNewUser:{
+            name: null,
+            email: null,
+            password: null,
+        },
 
     },
     data: {

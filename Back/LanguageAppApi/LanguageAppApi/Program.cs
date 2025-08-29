@@ -28,6 +28,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAll");
 
 var wordPairsStorage = new WordPairsStorage();
+var usersStorage =  new UsersStorage();
 app.MapGet("/wordpairs", () =>
     {
         return wordPairsStorage.GetWordPairs();
@@ -49,5 +50,10 @@ app.MapDelete("/wordpairs", async (HttpContext context) =>
 app.MapPut("/wordpair/{id}", async (int id, WordPair wordPair) =>
 {
     wordPairsStorage.UppdateWordPair(id, wordPair);
+});
+
+app.MapPost("/user", (User user) =>
+{
+   usersStorage.AddNewUser(user);
 });
 app.Run();

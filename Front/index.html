@@ -116,6 +116,27 @@
             await getWordPairsFromApi();
         }
 
+        async function sendNewUserToApi() {
+            const url = "http://localhost:5127/user";
+            var newUser = {
+                name: model.inputs.registreNewUser.name,
+                email: model.inputs.registreNewUser.email,
+                password: model.inputs.registreNewUser.password
+            }
+            const response = await fetch(url, {
+                method: "POST",
+                body: JSON.stringify(newUser),
+                headers: {
+                    'Accept': 'application/json, text/plain',
+                    'Content-Type': 'application/json;charset=UTF-8'
+                }
+            });
+            model.inputs.registreNewUser.name = null;
+            model.inputs.registreNewUser.email = null;
+            model.inputs.registreNewUser.password = null;
+            await getWordPairsFromApi();
+        }
+
     </script>
 </body>
 
