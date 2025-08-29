@@ -1,6 +1,9 @@
 function mainView() {
     let page = model.app.page;
     let currentPageView = '';
+
+    model.inputs.userpage.userId = parseInt(localStorage.getItem("loggedInUser")) ?? null;
+    
     switch (page) {
         case 'userpage':
             currentPageView = userpageView();
@@ -8,12 +11,12 @@ function mainView() {
         case 'wordsBase':
             currentPageView = wordsBaseView();
             break;
-            case 'registreNewUser':
+        case 'registreNewUser':
             currentPageView = registreNewUserView();
             break;
     }
 
-
+    
     document.getElementById('app').innerHTML = /*HTML*/ `
         <div id='mainContainer'>
             <header>
@@ -27,7 +30,5 @@ function mainView() {
             </footer>
         </div>
     `;
-    if (page === 'wordsBase') {
-        document.getElementById("wordsTable").scrollTop = parseInt(localStorage.getItem("tableScroll"));
-    }
+    init();
 }

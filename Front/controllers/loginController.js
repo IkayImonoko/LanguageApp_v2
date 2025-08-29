@@ -1,7 +1,8 @@
 function handleLogin(){
     let user = model.data.users.find(x => {return x.name === model.inputs.login.username && x.password === model.inputs.login.password});
     if(user){
-        model.inputs.userpage.userId = user.id;
+        //model.inputs.userpage.userId = user.id;
+        localStorage.setItem("loggedInUser", user.id);
     }
     setLoginUsernameInput(null);
     setLoginPasswordInput(null);
@@ -10,6 +11,7 @@ function handleLogin(){
 }
 
 function handleLogout(){
-    model.inputs.userpage.userId  = null;
+    //model.inputs.userpage.userId  = null;
+    localStorage.removeItem("loggedInUser");
     mainView();
 }
