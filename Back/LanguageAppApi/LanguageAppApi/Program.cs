@@ -56,4 +56,9 @@ app.MapPost("/user", (User user) =>
 {
    usersStorage.AddNewUser(user);
 });
+
+app.MapPost("/login", () =>
+{
+    
+});
 app.Run();
