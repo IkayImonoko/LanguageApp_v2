@@ -1,10 +1,34 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using LanguageAppApi;
 using LanguageAppApi.Storage;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+var secretKey = "test_secret_key_real_one_should_be_in_a_file"; 
+var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = "MyApp",
+            ValidAudience = "MyUsers",
+            IssuerSigningKey = key
+        };
+    });
+
+builder.Services.AddAuthorization();
+
 builder.Services.AddOpenApi();
 builder.Services.AddCors(options =>
 {
@@ -26,6 +50,9 @@ if (app.Environment.IsDevelopment())
 
 //app.UseHttpsRedirection();
 app.UseCors("AllowAll");
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 var wordPairsStorage = new WordPairsStorage();
 var usersStorage =  new UsersStorage();
@@ -57,8 +84,30 @@ app.MapPost("/user", (User user) =>
    usersStorage.AddNewUser(user);
 });
 
-app.MapPost("/login", () =>
+app.MapPost("/login", (LoginModel login) =>
 {
-    
+    if (login.Username == "admin" && login.Password == "1234")
+    {
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        var claims = new[]
+        {
+            new Claim("userId", "1"),
+            new Claim(ClaimTypes.Role, "Admin")
+        };
+
+        var token = new JwtSecurityToken(
+            issuer: "MyApp",
+            audience: "MyUsers",
+            claims: claims,
+            expires: DateTime.Now.AddMinutes(30),
+            signingCredentials: creds
+        );
+
+        var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+        return Results.Ok(new { token = jwt });
+    }
+
+    return Results.Unauthorized();
 });
 app.Run();
