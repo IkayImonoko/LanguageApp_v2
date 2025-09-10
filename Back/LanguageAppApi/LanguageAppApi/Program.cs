@@ -56,6 +56,7 @@ app.UseAuthorization();
 
 var wordPairsStorage = new WordPairsStorage();
 var usersStorage =  new UsersStorage();
+var authService = new AuthService("Data Source=localhost; Initial Catalog=testBase; User Id=sa; Password=qwerty;");
 app.MapGet("/wordpairs", () =>
     {
         return wordPairsStorage.GetWordPairs();
@@ -86,7 +87,7 @@ app.MapPost("/user", (User user) =>
 
 app.MapPost("/login", (LoginModel login) =>
 {
-    if (login.Username == "admin" && login.Password == "1234")
+    if (authService.CheckLogin(login.Username, login.Password))
     {
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
@@ -108,6 +109,9 @@ app.MapPost("/login", (LoginModel login) =>
         return Results.Ok(new { token = jwt });
     }
 
-    return Results.Unauthorized();
+    return Results.Json(
+        new { success = false, message = "Incorrect name or password." },
+        statusCode: StatusCodes.Status401Unauthorized
+    );
 });
 app.Run();
