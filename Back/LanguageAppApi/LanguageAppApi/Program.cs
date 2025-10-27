@@ -40,6 +40,9 @@ builder.Services.AddCors(options =>
             .AllowAnyHeader();  
     });
 });
+builder.Services.AddControllers();
+builder.Services.AddSingleton<WordPairsStorage>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -53,27 +56,28 @@ app.UseCors("AllowAll");
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.MapControllers();
 
 var wordPairsStorage = new WordPairsStorage();
 var usersStorage =  new UsersStorage();
 var authService = new AuthService("Data Source=localhost; Initial Catalog=testBase; User Id=sa; Password=qwerty;");
-app.MapGet("/wordpairs", () =>
-    {
-        return wordPairsStorage.GetWordPairs();
-    })
-    .WithName("GetWordPairs");
+// app.MapGet("/wordpairs", () =>
+//     {
+//         return wordPairsStorage.GetWordPairs();
+//     })
+//     .WithName("GetWordPairs");
 
 app.MapPost("/wordpair", (WordPair wordPair) =>
 {
     wordPairsStorage.AddWordPair(wordPair);
 });
 
-app.MapDelete("/wordpairs", async (HttpContext context) =>
-{
-    var ids = await context.Request.ReadFromJsonAsync<List<int>>();
-    wordPairsStorage.DeleteWordPairs(ids);
-    return Results.Ok(new { deletedIds = ids });
-});
+// app.MapDelete("/wordpairs", async (HttpContext context) =>
+// {
+//     var ids = await context.Request.ReadFromJsonAsync<List<int>>();
+//     wordPairsStorage.DeleteWordPairs(ids);
+//     return Results.Ok(new { deletedIds = ids });
+// });
 
 app.MapPut("/wordpair/{id}", async (int id, WordPair wordPair) =>
 {
