@@ -28,3 +28,19 @@ public class WordPairsController : ControllerBase
         return Ok(new { deletedIds = ids });
     }
 }
+
+public class WordPairController : ControllerBase
+{
+    private readonly WordPairsStorage _wordPairsStorage;
+    public WordPairController(WordPairsStorage wordPairsStorage)
+    {
+        _wordPairsStorage = wordPairsStorage;
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UppdateWordPair(int id, [FromBody] WordPair wordPair)
+    {
+        _wordPairsStorage.UppdateWordPair(id, wordPair);
+        return Ok();
+    }
+}

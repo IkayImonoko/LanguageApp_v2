@@ -79,10 +79,10 @@ app.MapPost("/wordpair", (WordPair wordPair) =>
 //     return Results.Ok(new { deletedIds = ids });
 // });
 
-app.MapPut("/wordpair/{id}", async (int id, WordPair wordPair) =>
-{
-    wordPairsStorage.UppdateWordPair(id, wordPair);
-});
+// app.MapPut("/wordpair/{id}", async (int id, WordPair wordPair) =>
+// {
+//     wordPairsStorage.UppdateWordPair(id, wordPair);
+// });
 
 app.MapPost("/user", (User user) =>
 {
