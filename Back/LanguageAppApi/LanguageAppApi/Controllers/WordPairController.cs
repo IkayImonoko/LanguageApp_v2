@@ -6,7 +6,6 @@ namespace LanguageAppApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-
 public class WordPairsController : ControllerBase
 {
     private readonly WordPairsStorage _wordPairsStorage;
@@ -29,6 +28,9 @@ public class WordPairsController : ControllerBase
     }
 }
 
+
+[ApiController]
+[Route("[controller]")]
 public class WordPairController : ControllerBase
 {
     private readonly WordPairsStorage _wordPairsStorage;
@@ -42,5 +44,12 @@ public class WordPairController : ControllerBase
     {
         _wordPairsStorage.UppdateWordPair(id, wordPair);
         return Ok();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> AddWordPair([FromBody] WordPair wordPair)
+    {
+        _wordPairsStorage.AddWordPair(wordPair);
+        return Ok();    
     }
 }

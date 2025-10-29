@@ -67,10 +67,10 @@ var authService = new AuthService("Data Source=localhost; Initial Catalog=testBa
 //     })
 //     .WithName("GetWordPairs");
 
-app.MapPost("/wordpair", (WordPair wordPair) =>
-{
-    wordPairsStorage.AddWordPair(wordPair);
-});
+// app.MapPost("/wordpair", (WordPair wordPair) =>
+// {
+//     wordPairsStorage.AddWordPair(wordPair);
+// });
 
 // app.MapDelete("/wordpairs", async (HttpContext context) =>
 // {
