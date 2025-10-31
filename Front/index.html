@@ -67,7 +67,7 @@
         }
 
         async function sendWordPairToApi() {
-            const url = "http://localhost:5127/wordpair";
+            const url = "http://localhost:5127/wordpairs";
             var wordpair = {
                 russian: model.inputs.addword.russian,
                 norwegian: model.inputs.addword.norwegian,
@@ -103,7 +103,7 @@
         }
 
         async function uppdateWordPairTroudgApi(id) {
-            const url = `http://localhost:5127/wordpair/${id}`;
+            const url = `http://localhost:5127/wordpairs/${id}`;
             const response = await fetch(url, {
                 method: "PUT",
                 body: JSON.stringify(model.inputs.wordsbase.changingInputs.find(x => x.id === id)),
